@@ -1,1 +1,3 @@
 # python-api-challenge
+
+After using a random number generator to create 1,500 latitudes and longitudes, I used the citypy library to find the nearest town. As the earth's surface is about two-thirds water, I got a hit for 592 towns in total. Using openweathermap, I made an API call to find current weather for each of the towns. Not all had a weather station nearby, so I got 521 data points. I created scatterplots with these to find patterns along latitudes for temperature, humidity, wind speed, and cloudiness. Using the results, I drew conclusions about the relationship of these weather patterns to latitude.
